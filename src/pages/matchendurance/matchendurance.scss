@@ -1,0 +1,108 @@
+page-matchendurance {
+
+}
+
+
+.me_subscribe
+{
+
+   width:100%;
+   border:2px solid #B2D15A !important;	
+   color:#B2D15A !important;	
+   padding:10px;
+}
+
+
+.txt{
+	padding-top:10px;
+	font-size:16px;
+	font-weight: 400 !important; 
+	text-transform:none !important; 
+}
+
+.txt1{
+	padding-top:10px;
+	font-size:18px;
+	font-weight: 400 !important; 
+	text-transform:none !important; 
+	color:#6c6c6c;
+}
+
+.txt2{
+	padding-top:10px;
+	font-size:18px;
+	font-weight: 400 !important; 
+	text-transform:none !important; 
+}
+
+.me_icon_button_green_tick{
+	background-image:url("../../assets/Match Endurance Accomplished Icon.png"); 
+	background-repeat: no-repeat; 
+    background-position: right center;
+    //background-origin: content-box;
+    background-size: 2.5rem 2.5rem;
+    background-color:#F5F5F5   !important;	
+    //height: 60px !important;	
+    width:100% !important;	
+   // text-indent:20px !important; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display:block; 
+}
+
+.me_icon_button_black_tick{
+	background-image:url("../../assets/Match Endurance Unaccomplished Icon.png"); 
+	background-repeat: no-repeat; 
+    background-position: right center;
+    //background-origin: content-box;
+    background-size: 2.5rem 2.5rem;
+    background-color:#F5F5F5   !important;	
+    //height: 60px !important;	
+    width:100% !important;	
+   // text-indent:20px !important; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display:block; 
+}
+
+
+.me_icon_button{
+	background-repeat: no-repeat; 
+    background-position: right center;
+    //background-origin: content-box;
+    background-size: 2.5rem 2.5rem;
+    background-color:#F5F5F5   !important;	
+    height: auto !important;	
+    width:100% !important;	
+   // text-indent:20px !important; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display:block; 
+}
+
+
+
+.me_input_radious{
+    border-radius: 64px !important; 
+    //padding: 0 2.6rem;
+    border-top-left-radius: 64px  !important;   
+    border-top-right-radius: 64px  !important;
+    border-bottom-left-radius: 64px  !important;    
+    border-bottom-right-radius: 64px  !important;
+}
+
+.me_txt_box{
+	background-color:#FFF !important;
+	text-indent:20px !important; 
+}
+
+@media screen and (min-width: 220px) and (max-width:565px) {    
+   .me_txt_box{
+	    background-color:#FFF !important;
+		text-indent:20px !important; 
+		width: 150px  !important; 
+	}
+}

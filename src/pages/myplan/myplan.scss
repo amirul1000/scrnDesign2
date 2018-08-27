@@ -1,0 +1,126 @@
+page-myplan {
+
+}
+
+.txt{
+	padding-top:10px;
+	font-size:16px;
+	font-weight: 400 !important; 
+	text-transform:none !important; 
+}
+
+.txt1{
+	padding-top:10px;
+	font-size:18px;
+	font-weight: 400 !important; 
+	text-transform:none !important; 
+	color:#6c6c6c;
+}
+
+.txt_white{
+    padding-top:10px;
+    font-size:18px;
+    font-weight: 400 !important; 
+    text-transform:none !important; 
+    color:#ffffff;
+}
+
+
+.txt2{
+	padding-top:10px;
+	font-size:18px;
+	font-weight: 400 !important; 
+	text-transform:none !important; 
+}
+
+.txt_shadow{
+	padding-top:10px;
+	font-size:12px;
+	text-transform:none !important; 
+	color:#6c6c6c;
+}
+.mp_icon_button{
+    background-color:#F5F5F5   !important;	
+    width:100% !important;	
+    text-align: left !important;	
+    text-indent:20px !important; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display:block; 
+}
+
+.mp_icon_button_green{	
+    background-color:#B2D15A !important;	
+    text-align: left !important;	
+    width:100% !important;	
+    text-indent:20px !important; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display:block; 
+}
+
+.mp_input_radious{
+    border-radius: 64px !important; 
+    border-top-left-radius: 64px  !important;   
+    border-top-right-radius: 64px  !important;
+    border-bottom-left-radius: 64px  !important;    
+    border-bottom-right-radius: 64px  !important;
+}
+
+
+.button-inner
+{
+    -webkit-justify-content:left !important;
+}
+
+
+.line {position:relative;}
+.line::after {content:'';}
+.line::after {position:fixed; top:0; bottom:0; }
+.line::after {z-index:-1;}
+.line::after {width:1px; background:#6c6c6c;}
+
+
+/*.outer {
+  width: 1px;
+  height: 100%;
+  margin: auto;
+  position: relative;
+  
+}
+.inner {
+  position: absolute;
+  width:100%;
+  height: 40%;
+  background: grey;
+  top: 30%;
+  
+}*/
+
+
+.a, .b {
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  border-radius: 100%;
+  background-color: black;
+}
+
+.a {
+  margin-top: 0px;
+  margin-left: 200px;
+}
+
+.b {
+  margin-top: 100px;
+  margin-left: 1000px;
+}
+
+.line {
+  width: 100%;
+  color: black;
+  height: 1px;
+  background-color: black;
+}

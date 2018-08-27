@@ -1,0 +1,87 @@
+page-register {
+
+}
+
+.reg_register
+{
+	width:100%;
+	background-color:#B2D15A !important;	
+
+}
+
+.reg_signin
+{
+
+   width:100%;
+   border:1px solid #B2D15A !important;	
+   color:#B2D15A !important;	
+}
+
+.reg_slogan{
+	
+	padding-top:10px;
+    padding-bottom:80px;
+
+}
+
+.already_txt{
+	padding-top:10px;
+	font-size:14px;
+}
+
+.icon_name{
+	background-image:url("../../assets/Sign Up - Name Icon.png"); 
+	background-repeat: no-repeat; 
+    background-position: right center;
+    background-origin: content-box;
+    background-size: 2.5rem 2.5rem;
+    background-color:#F5F5F5 !important;	
+    height: 60px !important;	
+    width:100% !important;	
+    text-indent:20px !important;  
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display:block;
+}
+
+.icon_email{
+	background-image:url("../../assets/Sign Up - Email Icon.png"); 
+	background-repeat: no-repeat; 
+    background-position: right center;
+    background-origin: content-box;
+    background-size: 2.5rem 2.5rem;
+    background-color:#F5F5F5   !important;	
+    height: 60px !important;	
+    width:100% !important;	
+    text-indent:20px !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display:block;  
+}
+
+.icon_password{
+	background-image:url("../../assets/Sign Up - Password Icon.png"); 
+	background-repeat: no-repeat; 
+    background-position: right center;
+    background-origin: content-box;
+    background-size: 2.5rem 2.5rem;
+    background-color:#F5F5F5   !important;	
+    height: 60px !important;	
+    width:100% !important;	
+    text-indent:20px !important; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display:block; 
+}
+
+.input_radious{
+    border-radius: 64px !important; 
+    //padding: 0 2.6rem;
+    border-top-left-radius: 64px  !important;   
+    border-top-right-radius: 64px  !important;
+    border-bottom-left-radius: 64px  !important;    
+    border-bottom-right-radius: 64px  !important;
+}

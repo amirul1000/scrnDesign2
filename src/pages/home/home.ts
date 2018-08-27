@@ -11,4 +11,13 @@ export class HomePage {
 
   }
 
+
+    goToRegister() {
+    // go to the Register component
+    this.navCtrl.push('RegisterPage');
+  }
+
+
+  
+
 }

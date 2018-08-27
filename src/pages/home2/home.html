@@ -1,0 +1,98 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding> 
+
+
+
+    <div align="center">
+        <div class="row">
+           
+           <div   style="width:80% !important;float:left;">   
+                Plan your upcoming competions and traing session <br>
+               <span class="txt_shadow">We will send you a notification 60 minutes before a event start</span>
+             </div>
+             <div   style="width:20% !important;float:left;">   
+                <span style="float:right;padding-left:50px !important;">
+                  <img src="../../assets/Bottom Tab Settings Deselected Icon.png" class="responsive-img" >
+                </span>
+             </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m12 l12">
+               <img src="../../assets/Splash Logo.png" class="responsive-img" >
+            </div>
+        </div>      
+        <div class="row">
+            <div class="col s12 m12 l12">              
+              <ion-calendar [(ngModel)]="date"
+                                (onChange)="onChange($event)"
+                                (onSelect)="onSelect($event)"
+                                (monthChange)="monthChange($event)"
+                                [options]="options"
+                                type="string"
+                                format="YYYY-MM-DD">
+                  </ion-calendar>
+            </div>
+        </div>         
+        <div class="row">
+             <div   style="width:20% !important;float:left;">   
+                DATE
+             </div>
+             <div   style="width:80% !important;float:left;">   
+                <span style="float:left;padding-left:50px !important;">
+                 SESSION
+                </span>
+             </div>
+        </div>
+
+        <div class="row">
+             <div   style="width:20% !important;float:left;">   
+               11:30<br>
+                AM
+             </div>
+             <div style="width:80% !important;float:left;"> 
+                <button ion-button  round class="mp_icon_button ms_input_radious txt1">Sprinting session</button>
+             </div>
+        </div>
+
+         <div class="row">
+             <div   style="width:20% !important;float:left;">                  
+                2:50<br> 
+                PM
+             </div>
+             <div style="width:80% !important;float:left;"> 
+               <button ion-button  round class="mp_icon_button ms_input_radious txt1">Sprinting session</button>
+             </div>
+        </div>
+
+
+        <div class="row">
+             <div   style="width:20% !important;float:left;">   
+                2:50 <br>
+                PM
+             </div>
+             <div style="width:80% !important;float:left;"> 
+                <button ion-button  round class="mp_icon_button_green ms_input_radious txt1">Sprinting session</button>
+             </div>
+        </div>
+
+
+        <div class="row">
+             <div style="width:20% !important;float:left;"> 
+                2:50 <br>
+                PM
+             </div>
+             <div style="width:80% !important;float:left;"> 
+                <button ion-button  round class="mp_icon_button ms_input_radious txt1">Sprinting session</button>
+             </div>
+        </div>
+    </div>
+
+</ion-content>
+
+

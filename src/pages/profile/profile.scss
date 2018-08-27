@@ -1,0 +1,75 @@
+page-profile {
+
+}
+.profile_save
+{
+    width:100% !important;	
+	background-color:#96C11F !important;	
+}
+
+.profile_cancel
+{
+   width:100% !important;	
+   background-color:#CD1626 !important;	
+}
+
+
+.already_txt{
+	padding-top:10px;
+	font-size:14px;
+}
+
+.icon_profile{
+	background-repeat: no-repeat; 
+    background-position: right center;
+    background-origin: content-box;
+    background-size: 2.5rem 2.5rem;
+    background-color:#F5F5F5   !important;	
+    height: 60px !important;	
+    width:100% !important;	 
+    text-indent:20px !important;
+    text-align:left !important; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display:block;
+    position: initial !important;
+}
+
+.icon_profile_dropdown{
+	background-image:url("../../assets/Create your profile - Dropdown Icon.png"); 
+	background-repeat: no-repeat; 
+    background-position: right center;
+    background-origin: content-box;
+    background-size: 2.5rem 2.5rem;
+    background-color:#F5F5F5   !important;	
+    height: 60px !important;	
+    width:100% !important;	
+}
+
+
+.profile_input_radious{
+    border-radius: 64px !important;	
+    //padding: 0 1rem;
+    border-top-left-radius: 64px  !important;	
+    border-top-right-radius: 64px  !important;
+	border-bottom-left-radius: 64px  !important;	
+    border-bottom-right-radius: 64px  !important;
+}
+
+ion-select{
+    
+    max-width:100% !important;
+}
+
+
+ .select-md .select-icon {
+    display: none;
+    width  : 0px !important;
+    height : 0px !important;
+}    
+
+.select-md .select-placeholder{
+    
+
+}

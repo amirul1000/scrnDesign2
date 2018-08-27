@@ -1,0 +1,66 @@
+page-worktoday {
+
+}
+
+.work_match
+{
+	width:100%;
+	background-color:#B2D15A !important;	
+
+}
+
+.work_unlock
+{
+
+   width:100%;
+   border:2px solid #B2D15A !important;	
+   color:#B2D15A !important;	
+}
+
+
+.txt{
+	padding-top:10px;
+	font-size:16px;
+	font-weight: 400 !important; 
+	text-transform:none !important; 
+}
+
+.txt1{
+	padding-top:10px;
+	font-size:18px;
+	font-weight: 400 !important; 
+	text-transform:none !important; 
+	color:#6c6c6c;
+}
+
+.txt2{
+	padding-top:10px;
+	font-size:18px;
+	font-weight: 400 !important; 
+	text-transform:none !important; 
+}
+
+.icon_button{
+	background-image:url("../../assets/Sign Up - Password Icon.png"); 
+	background-repeat: no-repeat; 
+    background-position: right center;
+    //background-origin: content-box;
+    background-size: 2.5rem 2.5rem;
+    background-color:#F5F5F5   !important;	
+    //height: 60px !important;	
+    width:100% !important;	
+   // text-indent:20px !important; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display:block; 
+}
+
+.input_radious{
+    border-radius: 64px !important; 
+    //padding: 0 2.6rem;
+    border-top-left-radius: 64px  !important;   
+    border-top-right-radius: 64px  !important;
+    border-bottom-left-radius: 64px  !important;    
+    border-bottom-right-radius: 64px  !important;
+}
